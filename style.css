@@ -1,4 +1,5 @@
 * {
+
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -12,11 +13,13 @@ body {
     justify-content: center;
     background-image: url(./images/bg-intro-mobile.png);
     background-color: hsl(0, 100%, 74%);
+    padding-bottom: 15%;
 
 }
 
 .main {
     width: 85%;
+    padding-top: 17%;
     
 }
 
@@ -38,27 +41,65 @@ h1 {
     width: 100%;
     background-color: hsl(248, 32%, 49%);
     padding: 6%;
-    padding: 6%;
     border-radius: 8%;
     border: none;
 }
 
+
 .form-div {
     display: flex;
     flex-direction: column;
-    background-color: azure;
+    width: 100%;
+    padding: 3% 0;
+    background-color: white;
+    border-radius: 3%;
 }
+
+fieldset {
+    border: none;
+}
+
+label {
+    display:block;
+    padding: 3% 0;
+}
+
 input {
     display: block;
+    width: 90%;
     margin: auto;
+    padding: 4%;
+    border-radius: 8%;
+    border-color: rgb(247 220 220 / 40%);
+    border-width: medium;
 }
 
 .claim-button {
+    width: 90%;
+    margin: 3% auto;
+    padding: 4% 0;
     background-color: hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 8%;
+    font-weight: 500;
+
 }
 
 .terms-p {
+    padding-left: 7%;
+    width: 90%;
+    text-align: center;
+    font-size: 0.6rem;
     color: hsl(249, 10%, 26%);
+}
+
+.last-p {
+    padding-left: 7%;
+    width: 90%;
+    text-align: center;
+    font-size: 0.6rem;
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
 }
 
 ::placeholder {
