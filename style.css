@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: white;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+
+}
+
+.main {
+    width: 85%;
+    
+}
+
+.first-section {
+    padding: 6% 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 4% 0;
+}
+
+.first-para{
+    text-align: center;
+    padding-bottom: 13%;
+}
+
+.try-button {
+    width: 100%;
+    background-color: hsl(248, 32%, 49%);
+    padding: 6%;
+    padding: 6%;
+    border-radius: 8%;
+    border: none;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
+input {
+    display: block;
+    margin: auto;
+}
+
+.claim-button {
+    background-color: hsl(154, 59%, 51%);
+}
+
+.terms-p {
+    color: hsl(249, 10%, 26%);
+}
+
+::placeholder {
+    color: hsl(249, 10%, 26%);
+    font-weight: 700;
+}
