@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    color: white;
+    
 
 }
 
@@ -30,11 +30,18 @@ body {
 h1 {
     text-align: center;
     padding: 4% 0;
+    color: white;
 }
 
 .first-para{
     text-align: center;
     padding-bottom: 13%;
+    color: white;
+}
+
+.button-div {
+    padding-bottom: 6%;
+    border-radius: 8%;
 }
 
 .try-button {
@@ -43,6 +50,7 @@ h1 {
     padding: 6%;
     border-radius: 8%;
     border: none;
+    color: white;
 }
 
 
@@ -53,6 +61,10 @@ h1 {
     padding: 3% 0;
     background-color: white;
     border-radius: 3%;
+}
+
+.button-div {
+    background-color: transparent;
 }
 
 fieldset {
@@ -82,7 +94,13 @@ input {
     border: none;
     border-radius: 8%;
     font-weight: 500;
+    color: white;
 
+}
+
+.claim-button:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .terms-p {
@@ -101,8 +119,89 @@ input {
     color: hsl(0, 100%, 74%);
     font-weight: 700;
 }
+a {
+    font-size: 0.6rem;
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+    text-decoration: none;
+}
 
 ::placeholder {
     color: hsl(249, 10%, 26%);
     font-weight: 700;
+}
+
+@media (min-width: 960px) {
+    
+    body {
+        background-image: url(./images/bg-intro-desktop.png);
+    }
+    
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        padding-top: 4%;
+
+    }
+
+    .first-section {
+        width: 100%;
+        margin-right: 2%;
+        
+    }
+    h1 {
+        padding: 14% 0 4% 0;
+        font-size: 2.4rem;
+        text-align: initial;
+    }
+
+    .first-para {
+        text-align: initial;
+        font-size: 0.9rem;
+        padding-right: 0%;
+        
+    }
+
+    .second-section {
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    .button-div {
+        padding-bottom: 4%;
+    }
+
+    .try-button {
+        padding: 4%;
+        padding: auto;
+    }
+
+    .paraph-button {
+        display: flex;
+        padding: 0 10%;
+    }
+
+    .claim-button {
+        padding: 3% 0;
+    }
+
+
+    .terms-div {
+        display: flex;
+    }
+    .terms-p {
+        padding-right: 1%;
+        width: 70%;
+        text-align: center;
+        
+    }
+    
+    .last-p {
+        padding: 0%;
+        width: 40%;
+        text-align: left;
+
+    }
 }
