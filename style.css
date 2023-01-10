@@ -80,10 +80,31 @@ input {
     display: block;
     width: 90%;
     margin: auto;
-    padding: 4%;
+    padding: 3%;
     border-radius: 8%;
     border-color: rgb(247 220 220 / 40%);
     border-width: medium;
+    position: relative; 
+
+}
+
+.ros {
+    display: none;
+}
+.hidden-alert {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 9%;
+     position: relative;
+    transform: translate(0%, -63%); 
+    
+}
+
+.message-alert {
+    color: hsl(0, 100%, 74%);
+    font-size: 0.7rem;
+    padding-top: 4%;
 }
 
 .claim-button {
@@ -119,6 +140,7 @@ input {
     color: hsl(0, 100%, 74%);
     font-weight: 700;
 }
+
 a {
     font-size: 0.6rem;
     color: hsl(0, 100%, 74%);
@@ -169,6 +191,10 @@ a {
         margin-left: 2%;
     }
 
+    .form-div {
+        padding: 3% 0 6% 0;
+    }
+
     .button-div {
         padding-bottom: 4%;
     }
@@ -180,7 +206,7 @@ a {
 
     .paraph-button {
         display: flex;
-        padding: 0 10%;
+        padding: 0 18%;
     }
 
     .claim-button {
@@ -190,11 +216,12 @@ a {
 
     .terms-div {
         display: flex;
+
     }
     .terms-p {
         padding-right: 1%;
         width: 70%;
-        text-align: center;
+        text-align: right;
         
     }
     
